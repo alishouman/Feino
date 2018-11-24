@@ -39,7 +39,7 @@ class LoginFragment : FeinoBaseFragment() {
 
     private fun setClickListeners() {
 
-        loginBtn.setOnClickListener {
+     /*   loginBtn.setOnClickListener {
             val checkEmailResult = loginViewModel.checkEmail(emailEditText.text.toString())
             val checkPasswordResult = loginViewModel.checkPassword(passwordEditText.text.toString())
             if (checkEmailResult.first == true && checkPasswordResult.first == true) {
@@ -49,10 +49,10 @@ class LoginFragment : FeinoBaseFragment() {
             } else if (checkPasswordResult.first == false) {
                 passwordEditText.error = getString(checkPasswordResult.second)
             }
-        }
+        }*/
     }
 
-    private fun callLoginService(loginRequest: LoginRequest) {
+   /* private fun callLoginService(loginRequest: LoginRequest) {
         showProgressDialog()
         val disposable = loginViewModel.login(loginRequest).subscribe({
             dismissProgressDialog()
@@ -70,7 +70,7 @@ class LoginFragment : FeinoBaseFragment() {
         })
         compositeDisposable?.add(disposable);
 
-    }
+    }*/
 
 
     interface LoginCommunicator {

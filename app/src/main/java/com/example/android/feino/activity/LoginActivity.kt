@@ -4,9 +4,10 @@ import android.os.Bundle
 import com.example.android.feino.FeinoApplication
 import com.example.android.feino.R
 import com.example.android.feino.fragment.FeinoBaseFragment
+import com.example.android.feino.fragment.LoginFragment
 
 
-class LoginActivity : FeinoBaseActivity() {
+class LoginActivity : FeinoBaseActivity(), LoginFragment.LoginCommunicator {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,11 +31,11 @@ class LoginActivity : FeinoBaseActivity() {
         //   transaction.setCustomAnimations(R.anim.enter_from_left, R.anim.exit_to_right, R.anim.enter_from_right, R.anim.exit_to_right)
         if (addToBackStack) {
             transaction
-                .replace(R.id.fragment_container, fragment)
+                .replace(R.id.login_fragments_container, fragment)
                 .addToBackStack(null)
                 .commitAllowingStateLoss()
         } else {
-            transaction.add(R.id.fragment_container, fragment).commitAllowingStateLoss()
+            transaction.add(R.id.login_fragments_container, fragment).commitAllowingStateLoss()
         }
     }
 

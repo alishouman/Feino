@@ -2,6 +2,7 @@
     <string name="app_name">Feino</string>
     <string name="action_settings">Settings</string>
 
+    //registration
     <string name="first_name">First name</string>
     <string name="last_name">Last name</string>
     <string name="email">Email</string>
@@ -11,4 +12,13 @@
     <string name="register_tag">Register Tag</string>
     <string name="save_profile">Save Profile</string>
 
+
+    //login
+    <string name="arabic_language">عربي</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">Or</string>
+    <string name="register">Register</string>
 </resources>
