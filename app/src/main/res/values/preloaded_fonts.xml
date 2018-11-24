@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/comfortaa</item>
+        <item>@font/happy_monkey</item>
+        <item>@font/michroma</item>
+        <item>@font/raleway</item>
+        <item>@font/roboto_slab</item>
+        <item>@font/sanchez</item>
+        <item>@font/work_sans</item>
+        <item>@font/work_sans_bold</item>
+        <item>@font/work_sans_medium</item>
+    </array>
+</resources>

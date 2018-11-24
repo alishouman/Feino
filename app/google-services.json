@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "202472496593",
+    "firebase_url": "https://feino-7173c.firebaseio.com",
+    "project_id": "feino-7173c",
+    "storage_bucket": "feino-7173c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202472496593:android:71dc8b0993a65ff4",
+        "android_client_info": {
+          "package_name": "com.example.android.feino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202472496593-ldiv2dau380k39t12aoltntv67lardqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.feino",
+            "certificate_hash": "ebad78c4c87e0c1aefcf78bd242ad569e526f656"
+          }
+        },
+        {
+          "client_id": "202472496593-m62rftvt6a3k4as9d9qd2mg5fv111ij0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh7xlbuwLQbVNfRj1KY6LMf21Xg8gQ72w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202472496593-m62rftvt6a3k4as9d9qd2mg5fv111ij0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

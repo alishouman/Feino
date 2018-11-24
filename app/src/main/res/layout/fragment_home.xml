@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+            android:id="@+id/register_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Register a tag"
+            android:background="@color/primaryDarkColor"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/divider"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="@font/roboto_slab"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:drawableStart="@drawable/ic_scan"
+    />
+    <Button
+            android:id="@+id/scan_tv"
+            android:background="@color/primaryDarkColor"
+            android:textColor="@color/primaryTextColor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_slab"
+            android:padding="15dp"
+            android:text="Scan a tag"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:drawableStart="@drawable/ic_register"
+            app:layout_constraintHorizontal_bias="0.0"/>
+    <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/secondaryColor"
+            app:layout_constraintTop_toBottomOf="@id/register_tv"
+            app:layout_constraintBottom_toTopOf="@id/scan_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="282dp" tools:layout_editor_absoluteX="8dp"/>
+</android.support.constraint.ConstraintLayout>
